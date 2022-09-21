@@ -1,0 +1,66 @@
+.App {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.calendar__selectedDate__details {
+    display: flex;
+    flex-direction: row;
+}
+
+#myCal {
+    margin-right: 10px;
+}
+
+.selectedDate__detail {
+    height: 320px;
+    width: 320px;
+    border-radius: 10px;
+    overflow-y: scroll;
+    background-color: #ec407a;
+    color: white;
+    font-weight: 500;
+    padding: 10px
+}
+
+.event__detail {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    margin-bottom: 10px;
+    border: 1px solid wheat;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.event__detail__id__title {
+    display: flex;
+    flex-direction: column;
+}
+
+.event__detail__id__title>p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.book__calendar {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+}
+
+input {
+    border-radius: 5px;
+    height: 40px;
+    border: 2px solid black;
+    margin-bottom: 10px;
+    padding-left: 5px;
+}
